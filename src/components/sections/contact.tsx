@@ -21,27 +21,27 @@ export function Contact() {
           </p>
         </FadeIn>
 
-        <div className="max-w-2xl mx-auto">
+        <div className="max-w-4xl mx-auto">
           <FadeIn delay={0.2}>
             <Card className="bg-[#000814] border-[#003566]">
               <CardContent className="p-8">
                 <div className="grid sm:grid-cols-3 gap-6 mb-8">
-                  <ScaleOnHover>
+                  <ScaleOnHover className="h-full">
                     <Link
                       href={`mailto:${personalInfo.email}`}
-                      className="flex flex-col items-center p-6 bg-[#001d3d] rounded-lg border border-[#003566] hover:border-[#f5cc00]/50 transition-colors"
+                      className="flex flex-col items-center justify-center p-6 bg-[#001d3d] rounded-lg border border-[#003566] hover:border-[#f5cc00]/50 transition-colors h-full min-h-[160px]"
                     >
                       <Mail className="w-8 h-8 text-[#f5cc00] mb-3" />
                       <span className="text-white font-medium mb-1">Email</span>
-                      <span className="text-gray-400 text-sm text-center break-all">{personalInfo.email}</span>
+                      <span className="text-gray-400 text-sm text-center whitespace-nowrap">{personalInfo.email}</span>
                     </Link>
                   </ScaleOnHover>
 
-                  <ScaleOnHover>
+                  <ScaleOnHover className="h-full">
                     <Link
                       href={personalInfo.github}
                       target="_blank"
-                      className="flex flex-col items-center p-6 bg-[#001d3d] rounded-lg border border-[#003566] hover:border-[#f5cc00]/50 transition-colors"
+                      className="flex flex-col items-center justify-center p-6 bg-[#001d3d] rounded-lg border border-[#003566] hover:border-[#f5cc00]/50 transition-colors h-full min-h-[160px]"
                     >
                       <Github className="w-8 h-8 text-[#f5cc00] mb-3" />
                       <span className="text-white font-medium mb-1">GitHub</span>
@@ -49,11 +49,11 @@ export function Contact() {
                     </Link>
                   </ScaleOnHover>
 
-                  <ScaleOnHover>
+                  <ScaleOnHover className="h-full">
                     <Link
                       href={personalInfo.linkedin}
                       target="_blank"
-                      className="flex flex-col items-center p-6 bg-[#001d3d] rounded-lg border border-[#003566] hover:border-[#f5cc00]/50 transition-colors"
+                      className="flex flex-col items-center justify-center p-6 bg-[#001d3d] rounded-lg border border-[#003566] hover:border-[#f5cc00]/50 transition-colors h-full min-h-[160px]"
                     >
                       <Linkedin className="w-8 h-8 text-[#f5cc00] mb-3" />
                       <span className="text-white font-medium mb-1">LinkedIn</span>

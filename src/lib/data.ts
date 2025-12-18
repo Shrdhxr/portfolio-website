@@ -79,36 +79,24 @@ export const projects = [
 
 export const experience = [
   {
-    title: "Senior Full Stack Developer",
-    company: "Tech Innovations Inc.",
-    period: "2022 - Present",
-    description: "Leading development of AI-integrated web applications, mentoring junior developers, and architecting scalable solutions.",
-  },
-  {
     title: "AI/ML Engineer",
     company: "DataDriven Labs",
     period: "2020 - 2022",
     description: "Developed and deployed machine learning models for production, built data pipelines, and created AI-powered features.",
   },
   {
-    title: "Full Stack Developer",
-    company: "StartupXYZ",
-    period: "2018 - 2020",
+    title: "Software Development Intern",
+    company: "88GB",
+    period: "November 2025 - December 2025",
     description: "Built and maintained multiple web applications from scratch, implemented CI/CD pipelines, and optimized performance.",
   },
 ];
 
 export const education = [
   {
-    degree: "M.S. Computer Science",
-    school: "Tech University",
-    period: "2016 - 2018",
-    focus: "Specialization in Machine Learning & AI",
-  },
-  {
-    degree: "B.S. Computer Science",
-    school: "State University",
-    period: "2012 - 2016",
-    focus: "Minor in Mathematics",
+    degree: "Bachelor of Computer Applications (BCA)",
+    school: "Christ University, Bangalore",
+    period: "2023 - 2026",
+    focus: "Focus on Full Stack Development",
   },
 ];
