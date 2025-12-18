@@ -1,10 +1,9 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { FadeIn, ScaleOnHover } from "@/components/motion";
 import { personalInfo } from "@/lib/data";
-import { Github, Linkedin, Mail, Send } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import Link from "next/link";
 
 export function Contact() {
@@ -25,7 +24,7 @@ export function Contact() {
           <FadeIn delay={0.2}>
             <Card className="bg-[#000814] border-[#003566]">
               <CardContent className="p-8">
-                <div className="grid sm:grid-cols-3 gap-6 mb-8">
+                <div className="grid sm:grid-cols-3 gap-6">
                   <ScaleOnHover className="h-full">
                     <Link
                       href={`mailto:${personalInfo.email}`}
@@ -60,19 +59,6 @@ export function Contact() {
                       <span className="text-gray-400 text-sm">Connect</span>
                     </Link>
                   </ScaleOnHover>
-                </div>
-
-                <div className="text-center">
-                  <Button
-                    asChild
-                    size="lg"
-                    className="bg-[#f5cc00] text-[#000814] hover:bg-[#cca000] font-semibold px-8"
-                  >
-                    <Link href={`mailto:${personalInfo.email}`}>
-                      <Send className="w-5 h-5 mr-2" />
-                      Send Message
-                    </Link>
-                  </Button>
                 </div>
               </CardContent>
             </Card>
