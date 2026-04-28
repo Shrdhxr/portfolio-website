@@ -2,7 +2,7 @@
 
 import { FadeIn } from "@/components/motion";
 import { aboutText } from "@/lib/data";
-import { Code2, Brain, Rocket } from "lucide-react";
+import { Code2, Brain, Rocket, Network } from "lucide-react";
 
 export function About() {
   return (
@@ -35,7 +35,7 @@ export function About() {
                 <div>
                   <h3 className="font-semibold text-white mb-2">Full Stack Development</h3>
                   <p className="text-gray-400 text-sm">
-                    Building end-to-end solutions with modern frameworks and best practices.
+                    Building end-to-end solutions with modern frameworks and best practices from Design to Deployment & Maintenance
                   </p>
                 </div>
               </div>
@@ -47,19 +47,19 @@ export function About() {
                 <div>
                   <h3 className="font-semibold text-white mb-2">AI & Machine Learning</h3>
                   <p className="text-gray-400 text-sm">
-                    Implementing intelligent features that add real value to applications.
+                    Implementing intelligent AI-driven features that add real value to applications.
                   </p>
                 </div>
               </div>
 
               <div className="flex items-start gap-4 p-6 bg-[#000814] rounded-lg border border-[#003566]">
                 <div className="p-3 bg-[#003566] rounded-lg">
-                  <Rocket className="w-6 h-6 text-[#f5cc00]" />
+                  <Network className="w-6 h-6 text-[#f5cc00]" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-white mb-2">Problem Solving</h3>
+                  <h3 className="font-semibold text-white mb-2">Network Engineering</h3>
                   <p className="text-gray-400 text-sm">
-                    Tackling complex challenges with creative and efficient solutions.
+                    Hands-on experience with physical network equipment and infrastructure including IP-based communication.
                   </p>
                 </div>
               </div>

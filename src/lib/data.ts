@@ -16,35 +16,10 @@ to architecting robust backend systems and implementing AI-powered features that
 I believe in writing clean, maintainable code and staying at the forefront of technological innovation.`;
 
 export const skills = {
-  frontend: [
-    { name: "React", icon: "Code2" },
-    { name: "Next.js", icon: "Globe" },
-    { name: "TypeScript", icon: "FileCode" },
-    { name: "Tailwind CSS", icon: "Palette" },
-    { name: "Figma", icon: "Palette" },
-
-  ],
-  backend: [
-    { name: "Python", icon: "Terminal" },
-    { name: "Django", icon: "Server" },
-    { name: "Node.js", icon: "Server" },
-    { name: "PostgreSQL", icon: "Database" },
-    { name: "REST APIs", icon: "Webhook" },
-  ],
-  aiml: [
-    { name: "TensorFlow", icon: "Brain" },
-    { name: "PyTorch", icon: "Cpu" },
-    { name: "Gemini API", icon: "Bot" },
-    { name: "LangChain", icon: "Link" },
-    { name: "Hugging Face", icon: "Smile" },
-  ],
-  tools: [
-    { name: "Git", icon: "GitBranch" },
-    { name: "Docker", icon: "Container" },
-    { name: "AWS", icon: "Cloud" },
-    { name: "AutoCAD", icon: "Triangle" },
-    { name: "n8n", icon: "Code" },
-  ],
+  frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Figma"],
+  backend: ["Python", "Django", "Node.js", "PostgreSQL", "REST APIs"],
+  aiml: ["TensorFlow", "PyTorch", "Gemini API", "LangChain", "Hugging Face"],
+  tools: ["Git", "Docker", "AWS", "AutoCAD", "n8n"],
 };
 
 export const projects = [
