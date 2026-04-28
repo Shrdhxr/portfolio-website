@@ -21,19 +21,20 @@ export const skills = {
     { name: "Next.js", icon: "Globe" },
     { name: "TypeScript", icon: "FileCode" },
     { name: "Tailwind CSS", icon: "Palette" },
-    { name: "Framer Motion", icon: "Sparkles" },
+    { name: "Figma", icon: "Palette" },
+
   ],
   backend: [
-    { name: "Node.js", icon: "Server" },
     { name: "Python", icon: "Terminal" },
+    { name: "Django", icon: "Server" },
+    { name: "Node.js", icon: "Server" },
     { name: "PostgreSQL", icon: "Database" },
     { name: "REST APIs", icon: "Webhook" },
-    { name: "GraphQL", icon: "Share2" },
   ],
   aiml: [
     { name: "TensorFlow", icon: "Brain" },
     { name: "PyTorch", icon: "Cpu" },
-    { name: "OpenAI API", icon: "Bot" },
+    { name: "Gemini API", icon: "Bot" },
     { name: "LangChain", icon: "Link" },
     { name: "Hugging Face", icon: "Smile" },
   ],
@@ -41,16 +42,16 @@ export const skills = {
     { name: "Git", icon: "GitBranch" },
     { name: "Docker", icon: "Container" },
     { name: "AWS", icon: "Cloud" },
-    { name: "Vercel", icon: "Triangle" },
-    { name: "VS Code", icon: "Code" },
+    { name: "AutoCAD", icon: "Triangle" },
+    { name: "n8n", icon: "Code" },
   ],
 };
 
 export const projects = [
   {
-    title: "AI Chat Platform",
-    description: "A real-time chat application powered by GPT-4 with context-aware responses, document analysis, and multi-modal capabilities.",
-    tech: ["Next.js", "OpenAI", "Prisma", "PostgreSQL"],
+    title: "PhiShield - Phishing Detection Model",
+    description: "BERT-powered phishing detection model for real-time email and URL classification, achieving 98%+ accuracy through transformer-based semantic analysis.",
+    tech: ["Tkinter", "Pytorch", "HuggingFace"],
     github: "https://github.com",
     demo: "https://demo.com",
   },
@@ -79,16 +80,16 @@ export const projects = [
 
 export const experience = [
   {
-    title: "AI/ML Engineer",
-    company: "DataDriven Labs",
-    period: "2020 - 2022",
-    description: "Developed and deployed machine learning models for production, built data pipelines, and created AI-powered features.",
+    title: "Engineering Intern",
+    company: "L&T Technology Services",
+    period: "Januray 2026 - April 2026",
+    description: "Worked on the Telecommunications System of BMRCL Metro Reach 6, Phase 2A & 2B, including subsystems like FOTS, MCS, Radio, Telephone, CCTV, PIDS/PAS and T-SCADA.",
   },
   {
     title: "Software Development Intern",
     company: "88GB",
-    period: "November 2025 - December 2025",
-    description: "Built and maintained multiple web applications from scratch, implemented CI/CD pipelines, and optimized performance.",
+    period: "December 2025",
+    description: "Orchestrated custom n8n automation workflows to optimize client processes and improve operational efficiency.",
   },
 ];
 
