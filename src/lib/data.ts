@@ -7,19 +7,19 @@ export const personalInfo = {
   linkedin: "https://www.linkedin.com/in/shreedhar-modi/",
 };
 
-export const aboutText = `I'm a passionate Full Stack Developer and AI Engineer with a deep love for creating elegant, 
-efficient solutions to complex problems. With expertise spanning modern web technologies and machine learning, 
-I specialize in building applications that are not only functional but intelligent.
+export const aboutText = `I'm a Full Stack Developer and AI Engineer with experience in creating
+efficient solutions to complex problems. With expertise in modern web technologies and machine learning, 
+I specialize in building applications that functional and intelligent.
 
-My journey in tech has led me through the full spectrum of development—from crafting pixel-perfect frontends 
+My journey in tech has led me through the full Software Development Cycle - from initializing frontend designs 
 to architecting robust backend systems and implementing AI-powered features that deliver real value. 
-I believe in writing clean, maintainable code and staying at the forefront of technological innovation.`;
+I believe in doing quality work, utilizing technological innovation to sustain our world and benefit its people.`;
 
 export const skills = {
   frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Figma"],
-  backend: ["Python", "Django", "Node.js", "PostgreSQL", "REST APIs"],
+  backend: ["Python", "Flask", "FastAPI", "Node.js", "Express.js", "MySQL", "PostgreSQL", "REST APIs"],
   aiml: ["TensorFlow", "PyTorch", "Gemini API", "LangChain", "Hugging Face"],
-  tools: ["Git", "Docker", "AWS", "AutoCAD", "n8n"],
+  tools: ["Git", "Docker", "AWS","GCP", "AutoCAD", "n8n"],
 };
 
 export const projects = [
@@ -75,4 +75,10 @@ export const education = [
     period: "2023 - 2026",
     focus: "Focus on Full Stack Development",
   },
+  {
+    degree: "Exchange Program in Computer Science",
+    school: "Technical University of Applied Sciences Würzburg-Schweinfurt",
+    period: "March 2025 - July 2025",
+    focus: "Focus on Artificial Intelligence",
+  }
 ];
