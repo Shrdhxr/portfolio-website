@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "Shreedhar Modi",
   title: "Full Stack Developer & AI Engineer",
-  tagline: "Building intelligent solutions that bridge the gap between cutting-edge AI and seamless user experiences.",
+  tagline: "Building End-to-End Intelligent Systems at the Intersection of AI & Networks",
   email: "shreedhar0208@gmail.com",
   github: "https://github.com/Shrdhxr",
   linkedin: "https://www.linkedin.com/in/shreedhar-modi/",
@@ -11,8 +11,8 @@ export const aboutText = `I'm a Full Stack Developer and AI Engineer with experi
 efficient solutions to complex problems. With expertise in modern web technologies and machine learning, 
 I specialize in building applications that functional and intelligent.
 
-My journey in tech has led me through the full Software Development Cycle - from initializing frontend designs 
-to architecting robust backend systems and implementing AI-powered features that deliver real value. 
+My journey in tech has led me through the full SDLC - from initializing frontend designs 
+to architecting backend systems and implementing AI-powered features that deliver real value. 
 I believe in doing quality work, utilizing technological innovation to sustain our world and benefit its people.`;
 
 export const skills = {

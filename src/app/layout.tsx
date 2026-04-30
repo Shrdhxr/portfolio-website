@@ -1,11 +1,39 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Averia_Serif_Libre, Caudex, Roboto_Slab, Fraunces, Spectral, PT_Serif } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-geist-sans",
+// Font Options - Change activeFont to switch
+
+// Option 1: Caudex (Classic, Elegant Serif)
+const caudex = Caudex({
+  variable: "--font-primary",
   subsets: ["latin"],
+  weight: ["400", "700"],
 });
+
+// Option 2: Roboto Slab (Modern, Tech-friendly Serif)
+const robotoSlab = Roboto_Slab({
+  variable: "--font-primary",
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
+});
+
+// Option 3: Spectral (Elegant, Refined Serif)
+const spectral = Spectral({
+  variable: "--font-primary",
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800"],
+});
+
+// Option 4: PT Serif (Classic, Transitional Serif)
+const ptSerif = PT_Serif({
+  variable: "--font-primary",
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
+
+// CHANGE THIS to switch fonts: averiaSerif, caudex, robotoSlab, fraunces, spectral, ptSerif
+const activeFont = ptSerif;
 
 export const metadata: Metadata = {
   title: "Portfolio | Full Stack Developer & AI Engineer",
@@ -26,7 +54,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={`${inter.variable} font-sans antialiased`}>
+      <body className={`${activeFont.variable} font-primary antialiased`}>
         {children}
       </body>
     </html>
