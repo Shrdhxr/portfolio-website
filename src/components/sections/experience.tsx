@@ -38,7 +38,11 @@ export function Experience() {
                       <h4 className="font-semibold text-white">{item.title}</h4>
                       <span className="text-[#f5cc00] text-sm font-mono">{item.period}</span>
                     </div>
-                    <p className="text-[#cca000] text-sm mb-3">{item.company}</p>
+                    <div className="flex items-center gap-2 mb-3">
+                      <p className="text-[#cca000] text-sm">{item.company}</p>
+                      <span className="text-gray-500">•</span>
+                      <p className="text-white text-sm">{item.location}</p>
+                    </div>
                     <p className="text-gray-400 text-sm">{item.description}</p>
                   </CardContent>
                 </Card>

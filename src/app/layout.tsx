@@ -38,8 +38,8 @@ const activeFont = ptSerif;
 export const metadata: Metadata = {
   title: "Portfolio | Full Stack Developer & AI Engineer",
   description: "Full Stack Developer & AI Engineer specializing in building modern web applications and intelligent systems. Explore my projects, skills, and experience.",
-  keywords: ["Full Stack Developer", "AI Engineer", "React", "Next.js", "TypeScript", "Machine Learning"],
-  authors: [{ name: "Developer" }],
+  keywords: ["Full Stack Developer", "AI Engineer", "React", "Next.js", "Shreedhar Modi", "TypeScript", "Machine Learning"],
+  authors: [{ name: "Shreedhar" }],
   openGraph: {
     title: "Portfolio | Full Stack Developer & AI Engineer",
     description: "Full Stack Developer & AI Engineer specializing in building modern web applications and intelligent systems.",

@@ -8,18 +8,18 @@ export const personalInfo = {
 };
 
 export const aboutText = `I'm a Full Stack Developer and AI Engineer with experience in creating
-efficient solutions to complex problems. With expertise in modern web technologies and machine learning, 
-I specialize in building applications that functional and intelligent.
+efficient solutions for complex problems. With expertise in modern web technologies and machine learning, 
+I specialize in building applications that are functional and intelligent.
 
 My journey in tech has led me through the full SDLC - from initializing frontend designs 
-to architecting backend systems and implementing AI-powered features that deliver real value. 
+to architecting backend systems and implementing AI-powered features that deliver real value and results. 
 I believe in doing quality work, utilizing technological innovation to sustain our world and benefit its people.`;
 
 export const skills = {
   frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Figma"],
   backend: ["Python", "Flask", "FastAPI", "Node.js", "Express.js", "MySQL", "PostgreSQL", "REST APIs"],
-  aiml: ["TensorFlow", "PyTorch", "Gemini API", "LangChain", "Hugging Face"],
-  tools: ["Git", "Docker", "AWS","GCP", "AutoCAD", "n8n"],
+  aiml: ["TensorFlow", "PyTorch", "Gemini API", "LangChain", "Hugging Face", "n8n"],
+  tools: ["Git", "Docker", "AWS","GCP", "AutoCAD"],
 };
 
 export const projects = [
@@ -57,12 +57,14 @@ export const experience = [
   {
     title: "Engineering Intern",
     company: "L&T Technology Services",
-    period: "Januray 2026 - April 2026",
-    description: "Worked on the Telecommunications System of BMRCL Metro Reach 6, Phase 2A & 2B, including subsystems like FOTS, MCS, Radio, Telephone, CCTV, PIDS/PAS and T-SCADA.",
+    location: "Bangalore, India",
+    period: "January 2026 - April 2026",
+    description: "Worked on the Telecommunications System of BMRCL Metro Phase-2 Project, gaining knowledge of subsystems like FOTS, MCS, Radio, Telephone, CCTV, PIDS/PAS and T-SCADA.",
   },
   {
     title: "Software Development Intern",
-    company: "88GB",
+    company: "88GB Global",
+    location: "Bangalore, India",
     period: "December 2025",
     description: "Orchestrated custom n8n automation workflows to optimize client processes and improve operational efficiency.",
   },
